@@ -186,7 +186,7 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 15000,
     "questRequirements": [],
-    "achievementRequirements": ["694bf5bc5b0d85dce4d4a3c5"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },  
   {
     "type": "bottom",
@@ -228,7 +228,7 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694bf5aefeed87068122e731"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "bottom",
@@ -249,7 +249,49 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694bf54ab3c3a56da952d2f4"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a8bb3ba915969c9813f8040",
+    "outfitId": "6a8bb3b922edb8ac09a83931",
+    "bottomId": "6a8bb3d37dbed160fdd1d09a",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal",
+        "description": "BD Nocturnal"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bp_bd_set_2.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
+  },
+  {
+    "type": "bottom",
+    "suiteId": "6a8bb5835547b8e7ef6a9323",
+    "outfitId": "6a8bb58475bc5596add6cfdd",
+    "bottomId": "6a8bb58584058eaf02d492fc",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion",
+        "description": "BD Scorpion"
+      }
+    },
+    "bottomBundlePath": "assets/content/characters/character/prefabs/pants_bp_bd_set_1.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "bottom",

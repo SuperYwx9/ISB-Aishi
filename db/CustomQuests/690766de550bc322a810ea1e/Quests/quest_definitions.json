@@ -1292,7 +1292,7 @@
         "oneSessionOnly": false,
         "parentId": "",
         "type": "Elimination",
-        "value": 10,
+        "value": 5,
         "visibilityConditions": []
       },
       {
@@ -1355,7 +1355,7 @@
         "oneSessionOnly": false,
         "parentId": "",
         "type": "Elimination",
-        "value": 10,
+        "value": 5,
         "visibilityConditions": []
       },
       {
@@ -1418,7 +1418,7 @@
         "oneSessionOnly": false,
         "parentId": "",
         "type": "Elimination",
-        "value": 10,
+        "value": 5,
         "visibilityConditions": []
       }
     ],
@@ -3490,7 +3490,7 @@
           "index": 0,
           "parentId": "",
           "target": "Assault",
-          "value": 15,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -3502,7 +3502,7 @@
           "index": 0,
           "parentId": "",
           "target": "Pistol",
-          "value": 6,
+          "value": 3,
           "visibilityConditions": []
         },
         {
@@ -3514,7 +3514,7 @@
           "index": 0,
           "parentId": "",
           "target": "DMR",
-          "value": 8,
+          "value": 5,
           "visibilityConditions": []
         },
         {
@@ -3526,7 +3526,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 12,
+          "value": 7,
           "visibilityConditions": []
         },
         {
@@ -3538,7 +3538,7 @@
           "index": 0,
           "parentId": "",
           "target": "Shotgun",
-          "value": 4,
+          "value": 2,
           "visibilityConditions": []
         },
         {
@@ -3550,7 +3550,7 @@
           "index": 0,
           "parentId": "",
           "target": "Sniper",
-          "value": 10,
+          "value": 7,
           "visibilityConditions": []
         },
         {
@@ -3562,7 +3562,7 @@
           "index": 0,
           "parentId": "",
           "target": "LMG",
-          "value": 4,
+          "value": 2,
           "visibilityConditions": []
         },
         {
@@ -3598,6 +3598,7 @@
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
                 "6895bb82c4519957df062f82",
+                "6a1e14b82ce3a438f4b6b2e8",
                 "6933764646149ffb28ed75e0"
               ]
             }
@@ -4030,7 +4031,7 @@
           "index": 0,
           "parentId": "",
           "target": "Assault",
-          "value": 20,
+          "value": 14,
           "visibilityConditions": []
         },
         {
@@ -4042,7 +4043,7 @@
           "index": 0,
           "parentId": "",
           "target": "Pistol",
-          "value": 10,
+          "value": 7,
           "visibilityConditions": []
         },
         {
@@ -4054,7 +4055,7 @@
           "index": 0,
           "parentId": "",
           "target": "DMR",
-          "value": 12,
+          "value": 8,
           "visibilityConditions": []
         },
         {
@@ -4066,7 +4067,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 18,
+          "value": 13,
           "visibilityConditions": []
         },
         {
@@ -4078,7 +4079,7 @@
           "index": 0,
           "parentId": "",
           "target": "Shotgun",
-          "value": 6,
+          "value": 4,
           "visibilityConditions": []
         },
         {
@@ -4090,7 +4091,7 @@
           "index": 0,
           "parentId": "",
           "target": "Sniper",
-          "value": 14,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -4102,7 +4103,7 @@
           "index": 0,
           "parentId": "",
           "target": "LMG",
-          "value": 6,
+          "value": 4,
           "visibilityConditions": []
         },
         {
@@ -4137,7 +4138,9 @@
                 "69f572b4492391522e8fb0de",
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
-                "6895bb82c4519957df062f82"
+                "6895bb82c4519957df062f82",
+                "6a1e14b82ce3a438f4b6b2e8",
+                "6933764646149ffb28ed75e0"
               ]
             }
           ],
@@ -4559,7 +4562,7 @@
           "index": 0,
           "parentId": "",
           "target": "Assault",
-          "value": 30,
+          "value": 20,
           "visibilityConditions": []
         },
         {
@@ -4571,7 +4574,7 @@
           "index": 0,
           "parentId": "",
           "target": "Pistol",
-          "value": 14,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -4583,7 +4586,7 @@
           "index": 0,
           "parentId": "",
           "target": "DMR",
-          "value": 16,
+          "value": 12,
           "visibilityConditions": []
         },
         {
@@ -4595,7 +4598,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 25,
+          "value": 20,
           "visibilityConditions": []
         },
         {
@@ -4607,7 +4610,7 @@
           "index": 0,
           "parentId": "",
           "target": "Shotgun",
-          "value": 8,
+          "value": 6,
           "visibilityConditions": []
         },
         {
@@ -4619,7 +4622,7 @@
           "index": 0,
           "parentId": "",
           "target": "Sniper",
-          "value": 17,
+          "value": 13,
           "visibilityConditions": []
         },
         {
@@ -4631,7 +4634,7 @@
           "index": 0,
           "parentId": "",
           "target": "LMG",
-          "value": 8,
+          "value": 6,
           "visibilityConditions": []
         },
         {
@@ -4666,7 +4669,9 @@
                 "69f572b4492391522e8fb0de",
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
-                "6895bb82c4519957df062f82"
+                "6895bb82c4519957df062f82",
+                "6a1e14b82ce3a438f4b6b2e8",
+                "6933764646149ffb28ed75e0"
               ]
             }
           ],
@@ -5150,7 +5155,7 @@
           "index": 0,
           "parentId": "",
           "target": "Assault",
-          "value": 40,
+          "value": 30,
           "visibilityConditions": []
         },
         {
@@ -5162,7 +5167,7 @@
           "index": 0,
           "parentId": "",
           "target": "Pistol",
-          "value": 20,
+          "value": 14,
           "visibilityConditions": []
         },
         {
@@ -5174,7 +5179,7 @@
           "index": 0,
           "parentId": "",
           "target": "DMR",
-          "value": 22,
+          "value": 16,
           "visibilityConditions": []
         },
         {
@@ -5186,7 +5191,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 32,
+          "value": 22,
           "visibilityConditions": []
         },
         {
@@ -5198,7 +5203,7 @@
           "index": 0,
           "parentId": "",
           "target": "Shotgun",
-          "value": 10,
+          "value": 8,
           "visibilityConditions": []
         },
         {
@@ -5210,7 +5215,7 @@
           "index": 0,
           "parentId": "",
           "target": "Sniper",
-          "value": 22,
+          "value": 14,
           "visibilityConditions": []
         },
         {
@@ -5222,7 +5227,7 @@
           "index": 0,
           "parentId": "",
           "target": "LMG",
-          "value": 12,
+          "value": 9,
           "visibilityConditions": []
         },
         {
@@ -5257,7 +5262,9 @@
                 "69f572b4492391522e8fb0de",
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
-                "6895bb82c4519957df062f82"
+                "6895bb82c4519957df062f82",
+                "6a1e14b82ce3a438f4b6b2e8",
+                "6933764646149ffb28ed75e0"
               ]
             }
           ],
@@ -5741,7 +5748,7 @@
           "index": 0,
           "parentId": "",
           "target": "Assault",
-          "value": 48,
+          "value": 38,
           "visibilityConditions": []
         },
         {
@@ -5753,7 +5760,7 @@
           "index": 0,
           "parentId": "",
           "target": "Pistol",
-          "value": 26,
+          "value": 20,
           "visibilityConditions": []
         },
         {
@@ -5765,7 +5772,7 @@
           "index": 0,
           "parentId": "",
           "target": "DMR",
-          "value": 28,
+          "value": 22,
           "visibilityConditions": []
         },
         {
@@ -5777,7 +5784,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 38,
+          "value": 28,
           "visibilityConditions": []
         },
         {
@@ -5789,7 +5796,7 @@
           "index": 0,
           "parentId": "",
           "target": "Shotgun",
-          "value": 14,
+          "value": 10,
           "visibilityConditions": []
         },
         {
@@ -5801,7 +5808,7 @@
           "index": 0,
           "parentId": "",
           "target": "Sniper",
-          "value": 30,
+          "value": 18,
           "visibilityConditions": []
         },
         {
@@ -5813,7 +5820,7 @@
           "index": 0,
           "parentId": "",
           "target": "LMG",
-          "value": 16,
+          "value": 14,
           "visibilityConditions": []
         },
         {
@@ -5848,7 +5855,9 @@
                 "69f572b4492391522e8fb0de",
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
-                "6895bb82c4519957df062f82"
+                "6895bb82c4519957df062f82",
+                "6a1e14b82ce3a438f4b6b2e8",
+                "6933764646149ffb28ed75e0"
               ]
             }
           ],
@@ -7071,7 +7080,7 @@
           "index": 0,
           "parentId": "",
           "target": "SMG",
-          "value": 20,
+          "value": 12,
           "visibilityConditions": []
         },
         {
@@ -12621,7 +12630,7 @@
         },
         {
           "availableInGameEditions": [],
-          "id": "6915709a18303ce3e5b375cf",
+          "id": "6a8a58c5574ab34dae7d5a3a",
           "index": 0,
           "target": "690766de550bc322a810ea1e",
           "type": "TraderStanding",
@@ -28273,6 +28282,14 @@
                   "Left",
                   "MissingInAction"
                 ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6a8a20b4090683239d90c1b4",
+                "target": [
+                  "Shoreline"
+                ]
               }
             ],
             "id": "69628af13f632671437effa0"
@@ -28308,7 +28325,7 @@
         ],
         "loyaltyLevel": 1,
         "target": "69628d9cc48f7fe79fd2f437",
-        "traderId": 11,
+        "traderId": "11",
         "type": "ProductionScheme",
         "unknown": false
       },

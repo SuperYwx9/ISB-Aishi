@@ -342,7 +342,7 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 15000,
     "questRequirements": [],
-    "achievementRequirements": ["694bf5bc5b0d85dce4d4a3c5"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "top",
@@ -365,7 +365,7 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694bf5aefeed87068122e731"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "top",
@@ -388,7 +388,7 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 7500,
     "questRequirements": [],
-    "achievementRequirements": ["694bf5aefeed87068122e731"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "top",
@@ -411,7 +411,53 @@
     "currencyId": "MONEY_DOLLARS",
     "price": 2500,
     "questRequirements": [],
-    "achievementRequirements": ["694bf54ab3c3a56da952d2f4"]
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
+  },
+  {
+    "type": "top",
+    "suiteId": "6a8bb47bebd1c4435c940058",
+    "outfitId": "6a8bb47c097d2fcc3fac380f",
+    "topId": "6a8bb47de9a13d9bd334d9bf",
+    "handsId": "6a8bb47e20bbe85e0cada881",
+    "locales": {
+      "en": {
+        "name": "Black Division Nocturnal",
+        "description": "BD Nocturnal"
+      }
+    },
+    "topBundlePath": "assets/content/characters/character/prefabs/tshirt_bp_bd_set_2.bundle",
+    "handsBundlePath": "assets/content/hands/hands_bp_bd_set2/hands_bp_bd_set2.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
+  },
+  {
+    "type": "top",
+    "suiteId": "6a8bb5ae0fef82242540dccf",
+    "outfitId": "6a8bb5afcf0f11b2ab6ae5f8",
+    "topId": "6a8bb5b043f7da44b683c713",
+    "handsId": "6a8bb5b2bf1fb98671c2a04d",
+    "locales": {
+      "en": {
+        "name": "Black Division Scorpion",
+        "description": "BD Scorpion"
+      }
+    },
+    "topBundlePath": "assets/content/characters/character/prefabs/tshirt_bp_bd_set_1.bundle",
+    "handsBundlePath": "assets/content/hands/hands_bp_bd_set1/hands_bp_bd_set1.skin.bundle",
+    "traderId": "690766de550bc322a810ea1e",
+    "loyaltyLevel": 3,
+    "profileLevel": 30,
+    "standing": 0.40,
+    "currencyId": "MONEY_DOLLARS",
+    "price": 2500,
+    "questRequirements": [],
+    "achievementRequirements": ["694176555b56f8b3181945b1"]
   },
   {
     "type": "top",

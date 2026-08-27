@@ -22,20 +22,20 @@ public record ModMetadata : IModMetadata
     public string Name { get; init; } = "ISB Aishi";
     public string Author { get; init; } = "SamC137";
     public List<string>? Contributors { get; init; }
-    public SemanticVersioning.Version Version { get; init; } = new("2.0.1");
+    public SemanticVersioning.Version Version { get; init; } = new("2.0.2");
     public SemanticVersioning.Range SptVersion { get; init; } = new("~4.1.0");
     public List<string>? Incompatibilities { get; init; }
     public Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new SemanticVersioning.Range(">=3.0.3") },
-        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=2.0.0") },
+        { "com.wtt.commonlib", new SemanticVersioning.Range(">=3.0.4") },
+        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=2.0.1") },
     };
     public string? Url { get; init; } = "";
     public string License { get; init; } = "MIT";
     public bool HasPrepatcher { get; init; } = false;
 }
 
-[Injectable(TypePriority = OnLoadOrder.Preload + 90000)]
+[Injectable(TypePriority = OnLoadOrder.Preload + 3)]
 public sealed class AishiItemPreload(
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
     IReadOnlyList<SptMod> modList)
@@ -88,7 +88,7 @@ public sealed class AishiItemPreload(
     }
 }
 
-[Injectable(TypePriority = OnLoadOrder.TraderRegistration + 120)]
+[Injectable(TypePriority = OnLoadOrder.TraderRegistration + -1)]
 public sealed class AishiTraderRegistration(
     ModHelper modHelper,
     ImageRouter imageRouter,
@@ -147,6 +147,8 @@ public sealed class AishiTraderRegistration(
 
     private async Task RegisterCommonContent(Assembly assembly, CancellationToken cancellationToken)
     {
+        await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
+        cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
         cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
@@ -156,8 +158,6 @@ public sealed class AishiTraderRegistration(
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly);
-        cancellationToken.ThrowIfCancellationRequested();
-        await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
         cancellationToken.ThrowIfCancellationRequested();
         await wttCommon.CustomAchievementService.CreateCustomAchievements(assembly);
         cancellationToken.ThrowIfCancellationRequested();

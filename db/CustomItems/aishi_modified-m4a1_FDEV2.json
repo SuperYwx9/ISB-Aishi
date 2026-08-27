@@ -3,7 +3,7 @@
 
     "itemTplToClone": "5447a9cd4bdc2dbd208b4567",
     "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78e986f77447ed5636b1",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
 
 
     "overrideProperties": { 
@@ -83,6 +83,17 @@
     "IsAlwaysAvailableForInsurance": false,
 
     "InsuranceDisabled": true,
+
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "6a1e14b82ce3a438f4b6b2e8"
+        ]
+      }
+    ],
     
     "CanRequireOnRagfair": false,
 

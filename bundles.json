@@ -1,6 +1,70 @@
 {
     "manifest": [
         {
+            "key": "equipment/item_isb_container_money.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_isb_container_briefcase.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_pawn.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_tower.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_bishop.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_horse.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_king.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "equipment/item_barter_dogtags_isb_queen.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+				"assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "equipment/item_equipment_rig_bearing_isb_black.bundle",
             "dependencyKeys": [
                 "cubemaps",

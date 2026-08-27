@@ -102,7 +102,7 @@
             "Duration": 480,
             "Value": -25,
             "AbsoluteValue": true,
-            "SkillName": "Metabloism"
+            "SkillName": "Metabolism"
         },
         {
             "BuffType": "SkillRate",

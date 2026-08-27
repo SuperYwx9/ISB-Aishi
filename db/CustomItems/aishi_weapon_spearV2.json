@@ -436,6 +436,17 @@
 
     "addtoBots": true,
 
+    "masterySections": [
+      {
+        "Level2": 1600,
+        "Level3": 2000,
+        "Name": "M4",
+        "Templates": [
+          "69f67aaf276f5880ea08136f"
+        ]
+      }
+    ],
+
     "addtoModSlots": false,
 
     "addtoStaticLootContainers": false,

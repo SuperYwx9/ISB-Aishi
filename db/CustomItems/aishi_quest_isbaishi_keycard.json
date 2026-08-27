@@ -10,6 +10,7 @@
       "QuestItem": false,  
       "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
+      "InsuranceDisabled": true,
       "CanRequireOnRagfair": false,
       "addtoItemBlacklist": true,  
       "MaximumNumberOfUsage": 0,

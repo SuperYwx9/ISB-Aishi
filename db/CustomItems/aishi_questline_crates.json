@@ -8,6 +8,8 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
       "BackgroundColor": "yellow",
       "Prefab": {
 
@@ -118,6 +120,8 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "QuestItem": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
       "BackgroundColor": "yellow",
       "Prefab": {
 
@@ -179,5 +183,192 @@
     "addtoItemBlacklist": true, 
 
     "handbookPriceRoubles": 2500000
+  },
+  "6a8ccebf9302acfd1468abdc": {
+
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "QuestItem": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+
+        "path": "equipment/item_isb_container_briefcase.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+      "Weight": 4.0
+    },
+
+    "locales": {
+      "en": {
+        "name": "ISB Briefcase with TerraGroup Documents",
+        "shortName": "Briefcase",
+        "description": "A Briefcase containing confidential TerraGroup documents. Highly confidential material containing operational details for the entire corporation."
+      },
+      "po": {
+        "name": "Pasta da ASI com Documentos da TerraGroup",
+        "shortName": "Pasta",
+        "description": "Uma pasta de documentos confidenciais da TerraGroup. Material altamente confidencial contendo detalhes operacionais de toda a corporação."
+      }
+    
+    },
+
+      "isRandomLootContainer": true,
+      "randomLootContainerRewards":
+    {
+          "rewardCount": 4,
+          "foundInRaid": true,
+          "rewardTplPool": {
+            "6a8cff3621e52fbbd04f4113": 1,
+            "6a8cfc98ca0eb181f2df0059": 1,
+            "6a8cfca2e34752ad44304cd6": 1,
+            "6a8e765f2bee6c4abdb52713": 1,
+            "6a8e76785c3f75a6b4455e41": 1,
+            "6a8e76b6fd6a7d4953c567cc": 1,
+            "6a8e76ea2c551db921771c4f": 1,
+            "6a8e770988343498f639d557": 1,
+            "6a8e772b8dc2aa06f80099e4": 1
+          }
+    }, 
+
+    "fleaPriceRoubles": 5000000,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "handbookPriceRoubles": 2500000
+  },
+  "6a8f39899225d6a63dd472a1": {
+
+    "itemTplToClone": "590c621186f774138d11ea29",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b47574386f77428ca22b341",
+
+
+    "overrideProperties": {
+      "QuestItem": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,  
+      "ExaminedByDefault": false,
+      "BackgroundColor": "yellow",
+        
+
+      "Prefab": {
+
+        "path": "equipment/item_isb_container_money.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+      "Weight": 6.0,
+
+      "Grids": []
+    },
+
+    "locales": {
+      "en": {
+        "name": "Locked Reinforced Briefcase with ISB Documents",
+        "shortName": "Briefcase",
+        "description": "A reinforced briefcase containing ISB documents and items. It has an electronic lock and is believed to contain sensitive information."
+      },
+      "po": {
+        "name": "Locked Pasta com Documentos da ASI reforçada",
+        "shortName": "Pasta",
+        "description": "Uma pasta reforçada com documentos e itens da ASI. Essa possui uma fechadura eletrónica e deve conter informações sensíveis."
+      }
+    
+    },
+
+    "fleaPriceRoubles": 920000,
+
+    "handbookPriceRoubles": 950000,
+
+    "addtoItemBlacklist": true, 
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoBots": false,
+
+    "addtoSecureFilters": true
+  },
+  "6a8f29c48faabd7edce25062": {
+
+    "itemTplToClone": "665829424de4820934746ce6",
+    "parentId": "62f109593b54472778797866",
+    "handbookParentId": "5b5f6fd286f774093f2ecf0d",
+
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "QuestItem": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "BackgroundColor": "yellow",
+      "Prefab": {
+
+        "path": "equipment/item_isb_container_money.bundle",
+        "rcid": ""
+      },
+
+
+      "Width": 2,
+      "Height": 2,
+      "Weight": 6.0
+    },
+
+    "locales": {
+      "en": {
+        "name": "Reinforced Briefcase with ISB Documents",
+        "shortName": "Briefcase",
+        "description": "A reinforced briefcase containing ISB documents and items. It has an electronic lock and is believed to contain sensitive information."
+      },
+      "po": {
+        "name": "Pasta com Documentos da ASI reforçada",
+        "shortName": "Pasta",
+        "description": "Uma pasta reforçada com documentos e itens da ASI. Essa possui uma fechadura eletrónica e deve conter informações sensíveis."
+      }
+    
+    },
+
+      "isRandomLootContainer": true,
+      "randomLootContainerRewards":
+    {
+          "rewardCount": 4,
+          "foundInRaid": true,
+          "rewardTplPool": {
+            "6a8f2f19785af4cc71c3b8e2": 1,
+            "6a8f316e428d01f93b84c6dc": 1,
+            "6a8f3078020049bfa86a8f4a": 1,
+            "6a8f332eff53d07351a35f93": 1,
+            "6a8f38698a6847c4a8bb6527": 1,
+            "67c031b79320f644db06f456": 1,
+            "6944b4b15a0413f1b7f50724": 1
+          }
+    }, 
+
+    "fleaPriceRoubles": 7000000,
+
+    "CanSellOnRagfair": false,
+    
+    "CanRequireOnRagfair": false,
+
+    "addtoItemBlacklist": true, 
+
+    "handbookPriceRoubles": 4500000
   }
 }

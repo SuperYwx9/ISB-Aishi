@@ -438,6 +438,17 @@
 
     "addtoBots": true,
 
+    "masterySections": [
+      {
+        "Level2": 600,
+        "Level3": 1300,
+        "Name": "MK47",
+        "Templates": [
+          "69f572b4492391522e8fb0de"
+        ]
+      }
+    ],
+
     "addtoModSlots": false,
 
     "addtoStaticLootContainers": false,

@@ -30,7 +30,7 @@
     "6a13a3b21b7b8ce41175fa85": [
       [
         {
-          "count": 1,
+          "count": 7590,
           "_tpl": "5696686a4bdc2da3298b456a"
         }
       ]
@@ -38,15 +38,15 @@
     "6a321fbe05719aaba6b60376": [
       [
         {
-          "count": 1,
+          "count": 7590,
           "_tpl": "5696686a4bdc2da3298b456a"
         }
       ]
     ]
   },
   "loyal_level_items": {
-    "6a13a3b21b7b8ce41175fa85": 1,
-    "6a321fbe05719aaba6b60376": 1
+    "6a13a3b21b7b8ce41175fa85": 4,
+    "6a321fbe05719aaba6b60376": 4
   }
 }
 }
