@@ -537,7 +537,6 @@
         "target": "6812400b0c5cf2cf75074bb2",
         "traderId": "690766de550bc322a810ea1e",
         "type": "Item",
-        "value": 1,
         "unknown": true
       }
       ]
@@ -2401,7 +2400,6 @@
   "target": "69fa1543625d8311a4764485",
   "traderId": "690766de550bc322a810ea1e",
   "type": "Item",
-  "value": 1,
   "unknown": false
       },
       {
@@ -3597,8 +3595,7 @@
                 "69f572b4492391522e8fb0de",
                 "68a6399922b1e0bd360afe56",
                 "68a639748e1fe612970728e9",
-                "6895bb82c4519957df062f82",
-                "6933764646149ffb28ed75e0"
+                "6895bb82c4519957df062f82"
               ]
             }
           ],
@@ -13487,13 +13484,13 @@
               "_id": "6a3785beb605e66718d68105",
               "_tpl": "6937ecf8628ee476240c07cb",
               "upd": {
-                "StackObjectsCount": 2
+                "StackObjectsCount": -2
               }
             }
           ],
           "target": "6a3785beb605e66718d68105",
           "type": "Item",
-          "value": "2",
+          "value": "-2",
           "unknown": false
         }
       ]
@@ -15458,7 +15455,6 @@
     }
         ],
         "loyaltyLevel": 1,
-        "value": 1,
         "target": "69ff7f41f98323762c4fc63a",
         "traderId": "690766de550bc322a810ea1e",
         "type": "Item",

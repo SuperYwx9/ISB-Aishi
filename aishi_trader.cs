@@ -29,13 +29,13 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "ISB Aishi";
     public override string Author { get; init; } = "SamC137";
     public override List<string>? Contributors { get; init; } = [""];
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.3");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.4");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.13");
     public override List<string>? Incompatibilities { get; init; } = [""];
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new SemanticVersioning.Range(">=2.0.23") },
-        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=1.1.4") },
+        { "com.wtt.commonlib", new SemanticVersioning.Range(">=2.0.24") },
+        { "com.wtt.contentbackport", new SemanticVersioning.Range(">=1.1.5") },
     };
     public override string? Url { get; init; } = "";
     public override bool? IsBundleMod { get; init; } = true;
@@ -218,6 +218,7 @@ public class EditDatabaseValues(
             logger.LogInformation("\x1b[38;2;200;80;220m[ISB Aishi Loaded] \u201cDo you think the Black Division will negotiate? Join us, and let\u2019s show them our bargaining chip.\u201d\x1b[0m");
 
             await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
+            await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
             await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
             await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
             await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
@@ -228,8 +229,6 @@ public class EditDatabaseValues(
             await wttCommon.CustomVoiceService.CreateCustomVoices(assembly);
             await wttCommon.CustomHeadService.CreateCustomHeads(assembly);
             await wttCommon.CustomClothingService.CreateCustomClothing(assembly);
-            //fix language override issues
-            await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
 
             if (modList.Any(mod => mod.ModMetadata.ModGuid == "com.Luna.LunnayalunaLotus"))
             {

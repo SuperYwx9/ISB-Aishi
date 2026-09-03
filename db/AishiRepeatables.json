@@ -4,7 +4,7 @@
   "showRepeatableQuestLogs": false,
   "guaranteedDailyQuests": {
     "min": 1,
-    "max": 1
+    "max": 2
   },
   "daily": {
     "enabled": true,
@@ -45,11 +45,11 @@
           }
         }
       ],
-      "bodyPartChance": 50,
+      "bodyPartChance": 0,
       "bodyParts": [
         {
           "key": "Head",
-          "relativeProbability": 40,
+          "relativeProbability": 20,
           "data": [
             "Head"
           ]
@@ -88,11 +88,11 @@
       "maxDist": 100,
       "minDist": 20,
       "maxKills": 40,
-      "minKills": 20,
+      "minKills": 15,
       "maxBossKills": 3,
       "minBossKills": 1,
-      "maxPmcKills": 35,
-      "minPmcKills": 25,
+      "maxPmcKills": 30,
+      "minPmcKills": 15,
       "weaponRequirementChance": 0,
       "weaponCategoryRequirementChance": 0,
       "weaponCategoryRequirements": [],
@@ -111,20 +111,20 @@
     },
     "completion": {
       "requestedItemCount": {
-        "min": 8,
-        "max": 12
+        "min": 1,
+        "max": 3
       },
       "uniqueItemCount": {
-        "min": 5,
-        "max": 14
+        "min": 1,
+        "max": 1
       },
       "requestedBulletCount": {
-        "min": 200,
-        "max": 400
+        "min": 15,
+        "max": 40
       },
       "useWhitelist": false,
       "useBlacklist": false,
-      "requiredItemsAreFiR": false,
+      "requiredItemsAreFiR": true,
       "requiredItemMinDurabilityMinMax": {
         "min": 0,
         "max": 100
@@ -135,10 +135,10 @@
     },
     "exploration": {
       "locations": [],
-      "minExtracts": 6,
-      "maxExtracts": 9,
-      "minExtractsWithSpecificExit": 4,
-      "maxExtractsWithSpecificExit": 8,
+      "minExtracts": 1,
+      "maxExtracts": 3,
+      "minExtractsWithSpecificExit": 1,
+      "maxExtractsWithSpecificExit": 2,
       "specificExits": {
         "chance": 0,
         "passageRequirementWhitelist": []
@@ -151,27 +151,27 @@
       },
       "money": {
         "currency": "USD",
-        "min": 750,
+        "min": 550,
         "max": 1990
       },
       "standing": {
-        "min": 0.03,
-        "max": 0.07
+        "min": 0.01,
+        "max": 0.03
       },
       "itemRewards": {
         "min": 1,
-        "max": 3,
+        "max": 4,
         "allowDuplicates": false,
         "pool": [
           {
             "tpl": "6a7bbf80d68132981f99bd82",
-            "weight": 150,
+            "weight": 170,
             "minAmount": 1,
             "maxAmount": 1
           },
           {
             "tpl": "6a7cf0b5c2f90e0e4ece5684",
-            "weight": 90,
+            "weight": 100,
             "minAmount": 1,
             "maxAmount": 1
           },
@@ -351,33 +351,33 @@
       "targets": [
         {
           "key": "Savage",
-          "relativeProbability": 50,
+          "relativeProbability": 40,
           "data": {
-            "isBoss": false,
+            "isBoss": true,
             "isPmc": false
           }
         },
         {
           "key": "AnyPmc",
-          "relativeProbability": 50,
+          "relativeProbability": 60,
           "data": {
             "isBoss": false,
             "isPmc": true
           }
         }
       ],
-      "bodyPartChance": 50,
+      "bodyPartChance": 0,
       "bodyParts": [
         {
           "key": "Head",
-          "relativeProbability": 49,
+          "relativeProbability": 30,
           "data": [
             "Head"
           ]
         },
         {
           "key": "Chest",
-          "relativeProbability": 49,
+          "relativeProbability": 30,
           "data": [
             "Chest",
             "Stomach"
@@ -410,8 +410,8 @@
       "minDist": 30,
       "maxKills": 80,
       "minKills": 40,
-      "maxBossKills": 15,
-      "minBossKills": 8,
+      "maxBossKills": 8,
+      "minBossKills": 4,
       "maxPmcKills": 95,
       "minPmcKills": 50,
       "weaponRequirementChance": 0,
@@ -468,7 +468,7 @@
     "rewards": {
       "xp": {
         "min": 45000,
-        "max": 65000
+        "max": 85000
       },
       "money": {
         "currency": "USD",
@@ -476,7 +476,7 @@
         "max": 5000
       },
       "standing": {
-        "min": 0.06,
+        "min": 0.05,
         "max": 0.1
       },
       "itemRewards": {
